@@ -1,0 +1,35 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#057eff",
+        "statusBar.foreground": "#ffffff"
+    },
+    "window.zoomLevel": 1,
+    "clock.dateFormat": "h:MM TT",
+    "editor.minimap.enabled": false,
+    "explorer.decorations.colors": false,
+    "explorer.decorations.badges": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Variables",
+                "scope": ["variable", "variable.other.readwrite", "support.variable.property.dom", 
+                    "meta.object-literal.key"],
+                "settings": {
+                    "foreground": "#d9e4f0",
+                }
+            },
+            // {
+            //     "name": "Storage and Function",
+            //     "scope": ["keyword.control", "storage"],
+            //     "settings": {
+            //         "foreground": "#ed71d6"
+            //     }
+            // }
+        ]
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "explorer.confirmDragAndDrop": false,
+    "indentRainbow.includedLanguages": ["python"],
+    "indentRainbow.excludedLanguages": ["javascript", "css", "html", "jsx", "json"]
