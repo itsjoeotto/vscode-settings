@@ -14,7 +14,7 @@
             {
                 "name": "Variables",
                 "scope": ["variable", "variable.other.readwrite", "support.variable.property.dom", 
-                    "meta.object-literal.key"],
+                    "meta.object-literal.key", "variable.other.constant"],
                 "settings": {
                     "foreground": "#d9e4f0",
                 }
