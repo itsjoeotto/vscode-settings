@@ -1,10 +1,8 @@
-// Place your settings in this file to overwrite the default settings
 {
     "workbench.colorCustomizations": {
         "statusBar.background": "#057eff",
         "statusBar.foreground": "#ffffff"
     },
-    "window.zoomLevel": 1,
     "clock.dateFormat": "h:MM TT",
     "editor.minimap.enabled": false,
     "explorer.decorations.colors": false,
@@ -46,4 +44,23 @@
     "python.pythonPath": "/usr/local/bin/python3",
     "explorer.confirmDragAndDrop": false,
     "indentRainbow.includedLanguages": ["python"],
-    "indentRainbow.excludedLanguages": ["javascript", "css", "html", "jsx", "json"]
+    "indentRainbow.excludedLanguages": [
+        "javascript",
+        "css",
+        "html",
+        "jsx",
+        "json"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    // Bracket-pair colorization
+    "editor.bracketPairColorization.enabled": false, 
+
+    // Bracket-pair guides
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.highlightActiveBracketPair": false,
+
+    // Indentation guides
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "terminal.integrated.fontFamily": "MesloLGM NF",
+}
